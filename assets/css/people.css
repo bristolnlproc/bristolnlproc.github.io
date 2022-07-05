@@ -1223,12 +1223,12 @@ input[type="radio"] + label:before {
     display: block; }
   .image.left, .image.right, .image.top {
     max-width: 40%; }
-    .image.left img, .image.right, .image.top img {
+    .image.left img, .image.right img, .image.top img {
       width: 9em;
       height: 12em; }
   .image.top {
     float: top;
-    padding: 0 0 0 4em;
+    padding: 0 0 0 0;
     top: 0}
   .image.left {
     float: left;
